@@ -1,0 +1,26 @@
+Microsoft Windows [Version 10.0.18362.1082]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2019. Все права защищены.
+
+C:\Users\Erintes>scala
+Welcome to Scala 2.12.10 (Java HotSpot(TM) Client VM, Java 1.8.0_191).
+Type in expressions for evaluation. Or try :help.
+
+scala> val a = "Hello scala! This is Gleb Emelyanov."
+a: String = Hello scala! This is Gleb Emelyanov.
+
+scala> val myName = "Gleb Emelyanov"
+myName: String = Gleb Emelyanov
+
+scala> println(a)
+Hello scala! This is Gleb Emelyanov.
+
+scala> println(a.replace("Hello", "Hola"))
+Hola scala! This is Gleb Emelyanov.
+
+scala> println(a.replace(myName, myName.reverse))
+Hello scala! This is vonaylemE belG.
+
+scala> println(a.replace("Hello", "Hola").replace(myName, myName.reverse))
+Hola scala! This is vonaylemE belG.
+
+scala>
